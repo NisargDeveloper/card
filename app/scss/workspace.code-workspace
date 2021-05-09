@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Card",
+			"path": "..\\.."
+		},
+		{
+			"name": "stats-preview-card-component-main",
+			"path": "D:\\FrontEndProject\\stats-preview-card-component-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Card"
+	}
+}

@@ -1,0 +1,150 @@
+body .card {
+  width: 723px;
+  height: 400px;
+  background-color: #090b1a;
+}
+
+body .cardComponent {
+  width: 557px;
+  height: 224px;
+  background-color: #1b1938;
+  margin-top: 88px;
+  position: absolute;
+  margin-left: 83px;
+  margin-right: 83px;
+  margin-bottom: 88px;
+}
+
+body .cardComponent img {
+  margin-left: 284px;
+  width: 271px;
+  height: 224px;
+  position: relative;
+  top: 0;
+}
+
+body .cardComponent .layer {
+  margin-left: 284px;
+  width: 271px;
+  height: 224px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(170, 92, 219, 0.7);
+}
+
+body .cardComponent .leftCardComponent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  font-size: 9px;
+  overflow: hidden;
+  width: 284px;
+  height: 224px;
+}
+
+body .cardComponent h1 {
+  display: block;
+  margin-left: 35px;
+  margin-right: 61px;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-top: 42px;
+  color: white;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+
+body .cardComponent p#description {
+  font-family: 'Inter', sans-serif;
+  margin-left: 35px;
+  margin-right: 76px;
+  margin-top: 20px;
+  font-size: 7px;
+  line-height: 161.8%;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body .cardComponent .grid-container {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  bottom: 0;
+}
+
+body .cardComponent .grid-left {
+  width: 92px;
+  height: 55px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .cardComponent .grid-mix {
+  width: 40px;
+  height: 22px;
+  background-color: blue;
+  margin-left: 35px;
+}
+
+body .cardComponent .grid-mix-center {
+  width: 40px;
+  height: 22px;
+  background-color: blue;
+  margin-left: 16px;
+}
+
+body .cardComponent .grid-center {
+  width: 40px;
+  height: 22px;
+  background-color: blue;
+  margin-left: 10px;
+}
+
+body .cardComponent p#font1 {
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+body .cardComponent p#font2 {
+  color: rgba(255, 255, 255, 0.75);
+  padding: 0;
+  margin: 0;
+  font-size: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+body .cardComponent .grid-center {
+  width: 79px;
+  height: 55px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .cardComponent .grid-right {
+  width: 114px;
+  height: 55px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 75px;
+}
+
+body .cardComponent .grid-container div {
+  background-color: #1b1938;
+}
+
+body #page-wrap {
+  width: 700px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
