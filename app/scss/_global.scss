@@ -5,6 +5,11 @@ body {
   height: 400px;
   background-color: $veryDarkBlue;
 
+  @include breakpoint-down(medium){
+    width: 187px;
+    height: 478px;
+    
+  }
 }
 .cardComponent {
   width: 557px;
@@ -16,6 +21,30 @@ body {
   margin-right: 83px;
   margin-bottom: 88px;
 
+  @include breakpoint-down(medium){
+    width: 164px;
+    height: 391px;
+    margin: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 44px;
+    align-items: center;
+    //padding-left: 12px;
+    //padding-right: 12px;
+    background-color: $darkDesaturatedBlue;
+    
+    
+    
+  }
+
+}
+  
+  @include breakpoint-down(medium){
+    width:163px;
+    height: 123px;
+    
+    position: absolute;
+  }
 
   img {
   margin-left: 284px;
@@ -23,6 +52,13 @@ body {
   height: 224px;
   position: relative;
   top: 0;
+
+  @include breakpoint-down(medium){
+    width:163px;
+    height: 123px;
+    margin: 0;
+  }
+
 }
  .layer {
   margin-left: 284px;
@@ -31,6 +67,12 @@ body {
   position: absolute;
   top: 0;
   background-color:hsla(277, 64%, 61%,0.7);
+
+  @include breakpoint-down(medium){
+    width:163px;
+    height: 123px;
+    margin: 0;
+  }
  }
  
   
@@ -43,6 +85,11 @@ body {
   width: 284px;
   height: 224px;
   
+  @include breakpoint-down(medium){
+    width: 164px;
+    height: 270px;
+    position: absolute;
+  }
 }
 h1{
      display: block;
@@ -56,6 +103,17 @@ h1{
   font-size: 15px;
   font-family: 'Inter', sans-serif;
 
+
+  @include breakpoint-down(medium){
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    margin-top: 145px;
+    font-size: 17px;
+    //align-items: center;
+    text-align:center;
+  }
+
 }
 
   p#description {
@@ -67,6 +125,19 @@ h1{
     line-height: 161.8%;
     //background-color: rosybrown;
     color: $transparentWhite;
+
+    @include breakpoint-down(medium){
+     z-index: 1;
+     position: relative;
+     text-align: center;
+     margin: 0;
+     font-size: 7px;
+     margin-left: 17px ;
+     margin-right: 17px;
+     margin-top: 16px;
+
+    }
+    
   }
 
   .grid-container {
@@ -75,32 +146,60 @@ h1{
     display: flex;
     flex-direction: row;  
     bottom: 0;
+
+
+
+    @include breakpoint-down(medium){
+      display: none;
+      z-index: -1;
+     
+      
+      
+    }
   }
 
   .grid-left {
     width: 92px;
     height: 55px;
     flex: 1;
+
+    @include breakpoint-down(medium){
+     display: none;
+    }
     
     }
 
     .grid-mix {
-      width: 40px;
-      height: 22px;
+      width: 38px;
+      height: 47px;
       background-color: blue;
       margin-left: 35px;
+      position: absolute;
+
+      @include breakpoint-down(medium){
+        display: none;
+       }
+     
     }
     .grid-mix-center {
       width: 40px;
       height: 22px;
       background-color: blue;
       margin-left: 16px;
+
+      @include breakpoint-down(medium){
+        display: none;
+       }
     }
     .grid-center {
       width: 40px;
       height: 22px;
       background-color: blue;
       margin-left: 10px;
+
+      @include breakpoint-down(medium){
+        display: none;
+       }
     }
     
     p#font1 {
@@ -124,6 +223,10 @@ h1{
     width: 79px;
     height: 55px;
     flex: 1;
+
+    @include breakpoint-down(medium){
+        display: none;
+     }
     
     }
 
@@ -132,6 +235,10 @@ h1{
     height: 55px;
     flex: 1;
     margin-right: 75px;
+
+    @include breakpoint-down(medium){
+      display: none;
+     }
    
     
   }
@@ -139,10 +246,52 @@ h1{
     background-color: $darkDesaturatedBlue;
     
   }
+
+  .flex-mobile {
+    display: none;
+    @include breakpoint-down(medium){
+      
+      display:flex !important;
+      width: 100%;
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 3;
+      margin-top: 20%;
+      
+      
+     }
+
+  }
+  .flex-left {
+    display: none;
+    @include breakpoint-down(medium){
+    display: block;
+      
+  }
+.flex-center {
+    display: none;
+    @include breakpoint-down(medium){
+    display: block;  
+  }
 }
+  .flex-right {
+    display: none;
+    @include breakpoint-down(medium){
+    display: block;
+    }
+  }
+
 #page-wrap{
   width: 700px;
   margin: 0 auto;
 }
+@include breakpoint-down(medium){
+  background-color: red;
+}
+}
+
+
 
 }
