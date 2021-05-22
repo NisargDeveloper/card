@@ -283,15 +283,13 @@ h1{
     }
   }
 
-#page-wrap{
+
+
+}
+div#page-wrap{
   width: 700px;
   margin: 0 auto;
 }
-@include breakpoint-down(medium){
-  background-color: red;
-}
-}
-
 
 
 }

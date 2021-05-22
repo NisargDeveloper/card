@@ -321,14 +321,8 @@ body .flex-left .flex-right {
   }
 }
 
-body .flex-left #page-wrap {
+body div#page-wrap {
   width: 700px;
   margin: 0 auto;
-}
-
-@media (max-width: 375px) {
-  body .flex-left {
-    background-color: red;
-  }
 }
 /*# sourceMappingURL=style.css.map */
