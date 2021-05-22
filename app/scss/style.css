@@ -1,17 +1,18 @@
-body .card {
-  width: 723px;
-  height: 400px;
+body {
+  margin: 0px;
+  width: 1440px;
+  height: 100%;
   background-color: #090b1a;
 }
 
 @media (max-width: 375px) {
-  body .card {
+  .card {
     width: 187px;
     height: 478px;
   }
 }
 
-body .cardComponent {
+.card .cardComponent {
   width: 557px;
   height: 224px;
   background-color: #1b1938;
@@ -23,7 +24,7 @@ body .cardComponent {
 }
 
 @media (max-width: 375px) {
-  body .cardComponent {
+  .card .cardComponent {
     width: 164px;
     height: 391px;
     margin: 0;
@@ -38,14 +39,14 @@ body .cardComponent {
 }
 
 @media (max-width: 375px) {
-  body {
+  .card {
     width: 163px;
     height: 123px;
     position: absolute;
   }
 }
 
-body img {
+.card img {
   margin-left: 284px;
   width: 271px;
   height: 224px;
@@ -54,14 +55,14 @@ body img {
 }
 
 @media (max-width: 375px) {
-  body img {
+  .card img {
     width: 163px;
     height: 123px;
     margin: 0;
   }
 }
 
-body .layer {
+.card .layer {
   margin-left: 284px;
   width: 271px;
   height: 224px;
@@ -71,14 +72,14 @@ body .layer {
 }
 
 @media (max-width: 375px) {
-  body .layer {
+  .card .layer {
     width: 163px;
     height: 123px;
     margin: 0;
   }
 }
 
-body .leftCardComponent {
+.card .leftCardComponent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,14 +91,14 @@ body .leftCardComponent {
 }
 
 @media (max-width: 375px) {
-  body .leftCardComponent {
+  .card .leftCardComponent {
     width: 164px;
     height: 270px;
     position: absolute;
   }
 }
 
-body h1 {
+.card h1 {
   display: block;
   margin-left: 35px;
   margin-right: 61px;
@@ -110,7 +111,7 @@ body h1 {
 }
 
 @media (max-width: 375px) {
-  body h1 {
+  .card h1 {
     position: relative;
     z-index: 1;
     margin: 0;
@@ -120,7 +121,7 @@ body h1 {
   }
 }
 
-body p#description {
+.card p#description {
   font-family: 'Inter', sans-serif;
   margin-left: 35px;
   margin-right: 76px;
@@ -131,7 +132,7 @@ body p#description {
 }
 
 @media (max-width: 375px) {
-  body p#description {
+  .card p#description {
     z-index: 1;
     position: relative;
     text-align: center;
@@ -143,7 +144,7 @@ body p#description {
   }
 }
 
-body .grid-container {
+.card .grid-container {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,13 +157,13 @@ body .grid-container {
 }
 
 @media (max-width: 375px) {
-  body .grid-container {
+  .card .grid-container {
     display: none;
     z-index: -1;
   }
 }
 
-body .grid-left {
+.card .grid-left {
   width: 92px;
   height: 55px;
   -webkit-box-flex: 1;
@@ -171,12 +172,12 @@ body .grid-left {
 }
 
 @media (max-width: 375px) {
-  body .grid-left {
+  .card .grid-left {
     display: none;
   }
 }
 
-body .grid-mix {
+.card .grid-mix {
   width: 38px;
   height: 47px;
   background-color: blue;
@@ -185,12 +186,12 @@ body .grid-mix {
 }
 
 @media (max-width: 375px) {
-  body .grid-mix {
+  .card .grid-mix {
     display: none;
   }
 }
 
-body .grid-mix-center {
+.card .grid-mix-center {
   width: 40px;
   height: 22px;
   background-color: blue;
@@ -198,12 +199,12 @@ body .grid-mix-center {
 }
 
 @media (max-width: 375px) {
-  body .grid-mix-center {
+  .card .grid-mix-center {
     display: none;
   }
 }
 
-body .grid-center {
+.card .grid-center {
   width: 40px;
   height: 22px;
   background-color: blue;
@@ -211,12 +212,12 @@ body .grid-center {
 }
 
 @media (max-width: 375px) {
-  body .grid-center {
+  .card .grid-center {
     display: none;
   }
 }
 
-body p#font1 {
+.card p#font1 {
   color: white;
   padding: 0;
   margin: 0;
@@ -224,7 +225,7 @@ body p#font1 {
   font-family: 'Inter', sans-serif;
 }
 
-body p#font2 {
+.card p#font2 {
   color: rgba(255, 255, 255, 0.75);
   padding: 0;
   margin: 0;
@@ -232,7 +233,7 @@ body p#font2 {
   font-family: 'Inter', sans-serif;
 }
 
-body .grid-center {
+.card .grid-center {
   width: 79px;
   height: 55px;
   -webkit-box-flex: 1;
@@ -241,12 +242,12 @@ body .grid-center {
 }
 
 @media (max-width: 375px) {
-  body .grid-center {
+  .card .grid-center {
     display: none;
   }
 }
 
-body .grid-right {
+.card .grid-right {
   width: 114px;
   height: 55px;
   -webkit-box-flex: 1;
@@ -256,21 +257,21 @@ body .grid-right {
 }
 
 @media (max-width: 375px) {
-  body .grid-right {
+  .card .grid-right {
     display: none;
   }
 }
 
-body .grid-container div {
+.card .grid-container div {
   background-color: #1b1938;
 }
 
-body .flex-mobile {
+.card .flex-mobile {
   display: none;
 }
 
 @media (max-width: 375px) {
-  body .flex-mobile {
+  .card .flex-mobile {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -291,38 +292,45 @@ body .flex-mobile {
   }
 }
 
-body .flex-left {
+.card .flex-left {
   display: none;
 }
 
 @media (max-width: 375px) {
-  body .flex-left {
+  .card .flex-left {
     display: block;
   }
 }
 
-body .flex-left .flex-center {
+.card .flex-left .flex-center {
   display: none;
 }
 
 @media (max-width: 375px) {
-  body .flex-left .flex-center {
+  .card .flex-left .flex-center {
     display: block;
   }
 }
 
-body .flex-left .flex-right {
+.card .flex-left .flex-right {
   display: none;
 }
 
 @media (max-width: 375px) {
-  body .flex-left .flex-right {
+  .card .flex-left .flex-right {
     display: block;
   }
 }
 
-body div#page-wrap {
+.card div#page-wrap {
   width: 700px;
   margin: 0 auto;
+}
+
+@media (max-width: 375px) {
+  .card div#page-wrap {
+    width: 187px;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */

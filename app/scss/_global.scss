@@ -1,16 +1,19 @@
 body {
+  margin: 0px;
+  width: 1440px;
+  height: 100%;
+  background-color: $veryDarkBlue;
+}
   
 .card {
-  width: 723px;
-  height: 400px;
-  background-color: $veryDarkBlue;
+  
 
   @include breakpoint-down(medium){
     width: 187px;
     height: 478px;
     
   }
-}
+
 .cardComponent {
   width: 557px;
   height: 224px;
@@ -289,6 +292,11 @@ h1{
 div#page-wrap{
   width: 700px;
   margin: 0 auto;
+  @include breakpoint-down(medium){
+    width: 187px;
+    margin: 0 auto;
+   }
+   
 }
 
 
